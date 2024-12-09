@@ -4,69 +4,53 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/Info.plist</key>
-		<data>
-		kCko7HMHjaBNCFVbe0z9m2PaDME=
-		</data>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandFoundationKit</key>
-		<data>
-		nN1TgYy6pP+50REp/8mk0P7n/nU=
-		</data>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
-		<data>
-		dPiWC+fezGBVF2zU2Zvji9DLxy8=
-		</data>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/_CodeSignature/CodeResources</key>
-		<data>
-		XwzpQ3UXRHLAk1ZqQtmucKiXDhs=
-		</data>
 		<key>Headers/TreasureIslandPlugNotificationKit.h</key>
 		<data>
 		eB7Cw4epFrmjXsCzxcz+uU9vwkU=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		1Nq+aHsU/REmBz0WOVcpWK5NCLo=
+		SyS6t7Ba8XFh/Yr7RmjXniorpYU=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		8qUo+k19MbyU55PbX7nHTEStFk8=
+		wzyBhmeCG8lpguy1/lTqzk0+Zcg=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+j/fpoQsUBcRAjzXw0vumuFOVDw=
+		McypWUtmJmCEiAEukU6MIlzmIIE=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		yfhcbHo1pd9Ft7WnbDXmF0yzu4I=
+		9h2Du0Ht2adh45XYBKhO/8m+bs0=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+j/fpoQsUBcRAjzXw0vumuFOVDw=
+		McypWUtmJmCEiAEukU6MIlzmIIE=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		cdwvLfNg2Vz3TGVvjxuS2845ub4=
+		ErznmxGtxWl6C4L3tdDp6KpY8yE=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		8qUo+k19MbyU55PbX7nHTEStFk8=
+		wzyBhmeCG8lpguy1/lTqzk0+Zcg=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		eOS6ZCG89LMnFz3fgF+M3+p4uDA=
+		Q/N2fdCJOtoy5zQ8QqrcTxhER5c=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		XbHhKNKut0Ub9YQCZmeuPfaoPBg=
+		AnY5xhp1SGdWwW0BVmKzgxmhV2Y=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		eOS6ZCG89LMnFz3fgF+M3+p4uDA=
+		Q/N2fdCJOtoy5zQ8QqrcTxhER5c=
 		</data>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		jO9vsEXaLUDbQtN3uxITMUK9IdA=
+		J6E4XWrZLi4o6L3JhPEAZCMr0rE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -74,39 +58,11 @@
 		</data>
 		<key>TreasureIslandXConfig.xcconfig</key>
 		<data>
-		dPiWC+fezGBVF2zU2Zvji9DLxy8=
+		y4SfGI30UDHbv+jTCBcIVSWfa1c=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			KtADdYwkvXChMZaeewzQzhJyTgly1ZamxJP88kCQ5mE=
-			</data>
-		</dict>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandFoundationKit</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8sBAwil5Hejidf9e+NDA3efZxyS2rBJYbYLBPq0z4Og=
-			</data>
-		</dict>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/TreasureIslandXConfig.xcconfig</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kjkhp+wkN7APGED+6GMNZPOSKA1nGv55rKW+G50+wgg=
-			</data>
-		</dict>
-		<key>Frameworks/TreasureIslandFoundationKit.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BEiR4ZwcxVIRXbNe6oarkMs/eWl7PhkistRQWJ0cb/M=
-			</data>
-		</dict>
 		<key>Headers/TreasureIslandPlugNotificationKit.h</key>
 		<dict>
 			<key>hash2</key>
@@ -118,70 +74,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UXRWw8FKI56icBaFnLyoXBnhdchExAhm3R004RZ4x8=
+			3xhoqPw5HEuyAd77cSr+XKaTyqm0qpKyAG7rCAtd/eA=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qAO1kLEOmdWHe7CGV+G3fH11+/TLam9jaQHShUCHFh8=
+			i0RIue22Kzkerln+Hfb8K7F/in5U2yeUypcIzxUx2IE=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dxTrDaoYEeegfi1+hYVLM9c6GNSzpHganUY6XXU8hiw=
+			ppEq7jD2paz8iSJYAb4l4fTeWTAmAd67BjjfVrNBYMk=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qAO1kLEOmdWHe7CGV+G3fH11+/TLam9jaQHShUCHFh8=
+			i0RIue22Kzkerln+Hfb8K7F/in5U2yeUypcIzxUx2IE=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pwSQi8/DElEOKn8GMnGmu7NlG/BGM+s6WngEUVmVk/0=
+			myd3Xfdd2p+FT2d2lsvvhnOwSrknGW/p/XS+BUZypNM=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+UXRWw8FKI56icBaFnLyoXBnhdchExAhm3R004RZ4x8=
+			3xhoqPw5HEuyAd77cSr+XKaTyqm0qpKyAG7rCAtd/eA=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9SxuaYywnavS63fT+Y10L+rh165DniXRmH16xZhQ+U=
+			Jg0iQ8QwF8HMF2C1FU5NwAKtb0zVowFIE0CGllBhslg=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lHNNUFzUBvygkg039Kss8XnXv3o+69WN/BJnY8qDhSI=
+			lNzuJLc9nSgmb5gk3yFAqbGLKnhExedRVQTYOpTJ7jQ=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k9SxuaYywnavS63fT+Y10L+rh165DniXRmH16xZhQ+U=
+			Jg0iQ8QwF8HMF2C1FU5NwAKtb0zVowFIE0CGllBhslg=
 			</data>
 		</dict>
 		<key>Modules/TreasureIslandPlugNotificationKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/lmChVwqJz+aMIwWDsrS4t8uQSdSfdXOwAxYY+x0F18=
+			xYmQGpweMCezmK4QpBLzMvsziiC80MFT3s/tSyjgbKg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -195,7 +151,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kjkhp+wkN7APGED+6GMNZPOSKA1nGv55rKW+G50+wgg=
+			Q5x5IRfKjwtNRZMZ0nEHbEwv3uXext/3QJtkI95GXQs=
 			</data>
 		</dict>
 	</dict>

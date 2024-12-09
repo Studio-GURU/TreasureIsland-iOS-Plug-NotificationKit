@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TreasureIslandPlugNotificationKit",
+    "printedName": "TreasureIslandPlugNotificationKit",
     "children": [
       {
         "kind": "Import",
@@ -102,23 +102,24 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "PlugNotificationKit",
-        "printedName": "PlugNotificationKit",
+        "name": "PlugNotificationBuilder",
+        "printedName": "PlugNotificationBuilder",
         "children": [
           {
             "kind": "Function",
-            "name": "registerContractor",
-            "printedName": "registerContractor()",
+            "name": "builder",
+            "printedName": "builder()",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
+                "name": "NotificationContractorBuilder",
+                "printedName": "any TreasureIslandFoundationKit.NotificationContractorBuilder",
+                "usr": "s:27TreasureIslandFoundationKit29NotificationContractorBuilderP"
               }
             ],
             "declKind": "Func",
-            "usr": "s:33TreasureIslandPlugNotificationKit0cdE0V18registerContractoryyFZ",
-            "mangledName": "$s33TreasureIslandPlugNotificationKit0cdE0V18registerContractoryyFZ",
+            "usr": "s:33TreasureIslandPlugNotificationKit0cD7BuilderV7builder0ab10FoundationE00d10ContractorF0_pyFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0cD7BuilderV7builder0ab10FoundationE00d10ContractorF0_pyFZ",
             "moduleName": "TreasureIslandPlugNotificationKit",
             "static": true,
             "declAttributes": [
@@ -128,11 +129,27 @@
           }
         ],
         "declKind": "Struct",
-        "usr": "s:33TreasureIslandPlugNotificationKit0cdE0V",
-        "mangledName": "$s33TreasureIslandPlugNotificationKit0cdE0V",
+        "usr": "s:33TreasureIslandPlugNotificationKit0cD7BuilderV",
+        "mangledName": "$s33TreasureIslandPlugNotificationKit0cD7BuilderV",
         "moduleName": "TreasureIslandPlugNotificationKit",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -158,6 +175,278 @@
         "printedName": "TreasureIslandFoundationKit",
         "declKind": "Import",
         "moduleName": "TreasureIslandPlugNotificationKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandPlugNotificationKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandPlugNotificationKit"
+      },
+      {
+        "kind": "Import",
+        "name": "TreasureIslandFoundationKit",
+        "printedName": "TreasureIslandFoundationKit",
+        "declKind": "Import",
+        "moduleName": "TreasureIslandPlugNotificationKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationWebKit",
+        "printedName": "NotificationWebKit",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "retrieveStatus",
+            "printedName": "retrieveStatus()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotifyStatus",
+                "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33TreasureIslandPlugNotificationKit0d3WebE0C14retrieveStatus0ab10FoundationE006NotifyH0OyFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0d3WebE0C14retrieveStatus0ab10FoundationE006NotifyH0OyFZ",
+            "moduleName": "TreasureIslandPlugNotificationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateStatus",
+            "printedName": "updateStatus(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NotifyStatus",
+                "printedName": "TreasureIslandFoundationKit.NotifyStatus",
+                "usr": "s:27TreasureIslandFoundationKit12NotifyStatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33TreasureIslandPlugNotificationKit0d3WebE0C12updateStatus6statusy0ab10FoundationE006NotifyH0O_tFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0d3WebE0C12updateStatus6statusy0ab10FoundationE006NotifyH0O_tFZ",
+            "moduleName": "TreasureIslandPlugNotificationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openInduceView",
+            "printedName": "openInduceView(rootViewController:title:content:delaySeconds:payload:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33TreasureIslandPlugNotificationKit0d3WebE0C14openInduceView04rootI10Controller5title7content12delaySeconds7payloadySo06UIViewK0C_S2SSiSStFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0d3WebE0C14openInduceView04rootI10Controller5title7content12delaySeconds7payloadySo06UIViewK0C_S2SSiSStFZ",
+            "moduleName": "TreasureIslandPlugNotificationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openSetting",
+            "printedName": "openSetting(rootViewController:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33TreasureIslandPlugNotificationKit0d3WebE0C11openSetting18rootViewControllerySo06UIViewK0C_tFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0d3WebE0C11openSetting18rootViewControllerySo06UIViewK0C_tFZ",
+            "moduleName": "TreasureIslandPlugNotificationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "deliverNotification",
+            "printedName": "deliverNotification(title:content:delaySeconds:payload:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:33TreasureIslandPlugNotificationKit0d3WebE0C07deliverD05title7content12delaySeconds7payload17completionHandlerySS_SSSiSDyS2SGSgySbctFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0d3WebE0C07deliverD05title7content12delaySeconds7payload17completionHandlerySS_SSSiSDyS2SGSgySbctFZ",
+            "moduleName": "TreasureIslandPlugNotificationKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:33TreasureIslandPlugNotificationKit0d3WebE0C",
+        "mangledName": "$s33TreasureIslandPlugNotificationKit0d3WebE0C",
+        "moduleName": "TreasureIslandPlugNotificationKit",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -217,147 +506,147 @@
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 780,
+      "offset": 782,
       "length": 35,
       "value": "\"NotificationSettingViewController\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 857,
+      "offset": 859,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1098,
+      "offset": 1105,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1207,
+      "offset": 1214,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1375,
+      "offset": 1382,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1414,
+      "offset": 1421,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1599,
+      "offset": 1606,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2131,
+      "offset": 2143,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2167,
+      "offset": 2179,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2204,
+      "offset": 2216,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2326,
+      "offset": 2338,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2708,
+      "offset": 2725,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2758,
+      "offset": 2775,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2819,
+      "offset": 2836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3034,
+      "offset": 3056,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3102,
+      "offset": 3124,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3536,
+      "offset": 3558,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3833,
+      "offset": 3860,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3883,
+      "offset": 3910,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3944,
+      "offset": 3971,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationSettingViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4163,
+      "offset": 4190,
       "length": 5,
       "value": "false"
     },
@@ -504,189 +793,189 @@
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1091,
+      "offset": 1155,
       "length": 34,
       "value": "\"NotificationInduceViewController\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1229,
+      "offset": 1293,
       "length": 3,
       "value": "260"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 1606,
+      "offset": 1675,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1715,
+      "offset": 1784,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1883,
+      "offset": 1952,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1967,
+      "offset": 2036,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2107,
+      "offset": 2176,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2370,
+      "offset": 2444,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2420,
+      "offset": 2494,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2481,
+      "offset": 2555,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "StringLiteral",
-      "offset": 2745,
+      "offset": 2824,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2795,
+      "offset": 2874,
       "length": 2,
       "value": "14"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2856,
+      "offset": 2935,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3075,
+      "offset": 3159,
       "length": 9,
       "value": "\"#212121\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3143,
+      "offset": 3227,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3313,
+      "offset": 3397,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3354,
+      "offset": 3438,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "StringLiteral",
-      "offset": 3422,
+      "offset": 3511,
       "length": 9,
       "value": "\"#717171\""
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3557,
+      "offset": 3646,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3960,
+      "offset": 4049,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3996,
+      "offset": 4085,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4033,
+      "offset": 4122,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4155,
+      "offset": 4244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4648,
+      "offset": 4737,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4684,
+      "offset": 4773,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4721,
+      "offset": 4810,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sunrain\/GuruCompany\/Guru.TreasureIsland\/Project.TreasureIsland.iOS\/TreasureIsland.iOS.Source\/TreasureIsland.iOS\/Platforms\/TreasureIslandPlugNotificationKit\/TreasureIslandPlugNotificationKit\/Scene\/View\/NotificationInduceViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4843,
+      "offset": 4932,
       "length": 5,
       "value": "false"
     },
