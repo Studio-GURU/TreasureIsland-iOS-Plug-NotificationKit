@@ -11,8 +11,9 @@ import UserNotifications
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public struct PlugNotificationBuilder {
+@_hasMissingDesignatedInitializers @objcMembers public class PlugNotificationBuilder {
   public static func builder() -> any TreasureIslandFoundationKit.NotificationContractorBuilder
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class NotificationWebKit {
   public static func retrieveStatus() -> TreasureIslandFoundationKit.NotifyStatus

@@ -118,23 +118,26 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:33TreasureIslandPlugNotificationKit0cD7BuilderV7builder0ab10FoundationE00d10ContractorF0_pyFZ",
-            "mangledName": "$s33TreasureIslandPlugNotificationKit0cD7BuilderV7builder0ab10FoundationE00d10ContractorF0_pyFZ",
+            "usr": "s:33TreasureIslandPlugNotificationKit0cD7BuilderC7builder0ab10FoundationE00d10ContractorF0_pyFZ",
+            "mangledName": "$s33TreasureIslandPlugNotificationKit0cD7BuilderC7builder0ab10FoundationE00d10ContractorF0_pyFZ",
             "moduleName": "TreasureIslandPlugNotificationKit",
             "static": true,
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
           }
         ],
-        "declKind": "Struct",
-        "usr": "s:33TreasureIslandPlugNotificationKit0cD7BuilderV",
-        "mangledName": "$s33TreasureIslandPlugNotificationKit0cD7BuilderV",
+        "declKind": "Class",
+        "usr": "s:33TreasureIslandPlugNotificationKit0cD7BuilderC",
+        "mangledName": "$s33TreasureIslandPlugNotificationKit0cD7BuilderC",
         "moduleName": "TreasureIslandPlugNotificationKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjCMembers"
         ],
+        "hasMissingDesignatedInitializers": true,
         "conformances": [
           {
             "kind": "Conformance",
